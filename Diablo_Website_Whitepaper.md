@@ -21,7 +21,7 @@ The user wants to know about the heroes their account has. The user clicks onto 
 ### Viewing Equipment
 Our user is curious about the equipment a specific hero has. The user clicks onto the site and then enters their battle tag into the search bar. They then select their hero from the results list and the equipment list will display with the hero's profile.
 ![diablo3_home](https://github.com/szafiris/Portfolio/blob/master/diablo3_home.PNG)
-![hero_list](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20followers.png)
+![hero_list](https://github.com/szafiris/Portfolio/blob/master/hero_list.PNG)
 ![hero_info](https://github.com/szafiris/Portfolio/blob/master/hero_info.PNG)
 
 ## Design Rationale
