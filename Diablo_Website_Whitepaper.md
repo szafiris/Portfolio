@@ -7,22 +7,22 @@ The use of this application is to be able to see the current status of your hero
 I will be using the Diablo 3 API made by Blizzard. I will be using the get hero call, get follower Equipment call, and the get hero equipment call. The get account heroes call will pull all the heroes from a specific account and load the data onto the page. The get follower equipment call will get the followers special items for a particular hero. The get equipment call will retrieve a list of each item the hero currently has in their inventory and on their person.  All of the information on each of the different API calls can be found at https://dev.battle.net/io-docs.
 
 ## Top-Level Design/Layout
-![diablo3_home](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20Home.png)
-![hero_list](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20followers.png)
-![hero_info](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20skills.png)
+![diablo3_home](https://github.com/szafiris/Portfolio/blob/master/diablo3_home.PNG)
+![hero_list](https://github.com/szafiris/Portfolio/blob/master/hero_list.PNG)
+![hero_info](https://github.com/szafiris/Portfolio/blob/master/hero_info.PNG)
 
 ## Usage Scenarios
 
 ### Viewing Heroes
 The user wants to know about the heroes their account has. The user clicks onto the site and then enters their battle tag into the search bar and clicks search.
-![diablo3_home](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/Usage%20Scenario%201.png)
-![hero_list](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/Usage%20Scenario%201.png)
+![diablo3_home](https://github.com/szafiris/Portfolio/blob/master/diablo3_home.PNG)
+![hero_list](https://github.com/szafiris/Portfolio/blob/master/hero_list.PNG)
 
 ### Viewing Equipment
 Our user is curious about the equipment a specific hero has. The user clicks onto the site and then enters their battle tag into the search bar. They then select their hero from the results list and the equipment list will display with the hero's profile.
-![diablo3_home](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20Home.png)
+![diablo3_home](https://github.com/szafiris/Portfolio/blob/master/diablo3_home.PNG)
 ![hero_list](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20followers.png)
-![hero_info](https://github.com/lmu-cmsi370-fall2018/front-end-design-szafiris/raw/master/d3%20skills.png)
+![hero_info](https://github.com/szafiris/Portfolio/blob/master/hero_info.PNG)
 
 ## Design Rationale
 I decided to go with a dark color palette for the site for a number of reasons. The most prominent one being that the game diablo has a very dark color palette, with blues and grays being prominent colors on the site. I wanted to keep the same color palette so the user will make a connection between my Diablo 3 site and the actual game. Another reason I had for using dark UI is that a darker screen is easier on the eyes, especially if it is being used in darker lighting. Since my website is gaming related, I figured it would be used in more gaming-based settings. UX Collective states that the “reason behind the dark theme on entertainment platforms, such as Steam, Spotify, YouTube and Netflix, is that users tend to engage in such activities later in the day, after work or in a room with dimmed lights”. Since gaming is mostly done in darker lighting, a dark UI would be better suited for the user. I also tried to keep my site very simplistic as it will be much easier for the user to navigate and use the site if there are less things on the page. Usability.gov states that “best interfaces are almost invisible to the user. They avoid unnecessary elements and are clear in the language they use on labels and in messaging”. The less the user can interact with, the better the site. That way the user does not get lost in useless actions and they feel like they can easily learn the site. That is why my site only has a few buttons the user can interact with. I chose the font Palatino Linotype because it is a very readable font, but it is less formal than a font like Times New Roman. I wanted the font of the site to be easy to read, but to not give off an academic tone as this is a site about a videogame.
