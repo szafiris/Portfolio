@@ -1,5 +1,8 @@
 # Diablo 3 Website Whitepaper
 
+## Quick Note
+I ended up fully developing this design and connected to the Diablo API created by Blizzard. If you are curious in looking at the site please contact me.
+
 ## Application Description
 The use of this application is to be able to see the current status of your hero in Diablo 3 and see what types of equipment the hero has equipped, the level of their artisans, and the special items each follower has. They can see the equipment the character has, as well as their followers, artisans and skills. When the user opens the site, they will see their hero profile which will contain their hero's name and the equipment the hero currently has on them. They can then click to either the followers tab or the skills tab. If they click on the follower’s tab, they will see a list of their followers along with the artisans that are linked to the hero. If they click on the skills tab, they will see the skills that are currently associated with that hero.
 
