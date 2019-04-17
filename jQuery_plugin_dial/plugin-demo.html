@@ -1,0 +1,64 @@
+<!doctype html>
+
+<!-- A demonstration page for some hand-rolled jQuery plugins. -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>jQuery Plugin Demo</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Sometimes, a plugin needs "companion" CSS.  That is fine. -->
+    <link rel="stylesheet" href="jquery.dial.css">
+
+    <!-- And the page has its own styles. -->
+    <link rel="stylesheet" href="plugin-demo.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>jQuery Plugin Demonstration For Rotating a Dial</h1>
+
+          <p class="lead">This page demonstrates a user interface dial component implemented as jQuery
+            plugin. It includes callback functionality, which can be seen in the “Event Log” section of
+            this page.</p>
+        </div>
+      </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>"Dial" Control</h2>
+
+              <p>This plugin demonstrates low-level mouse event handling. It allows the user to rotate the dial and they can then
+                use it as a switch function. In my example it is used to switch the dot below from visible to invisible.</p>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h5 class="panel-title">Samples</h5>
+                </div>
+                <div class="panel-body">
+                  <div><img class="dial-this" draggable="false" src ="dial_v004.png" alt="dial"></div>
+                  <div><p class="dot" id="dot"></p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <h3>Event Log</h3>
+
+          <pre class="event-log"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jquery.dial.js"></script>
+
+    <script src="plugin-demo.js"></script>
+  </body>
+</html>
