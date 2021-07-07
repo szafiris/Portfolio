@@ -9,4 +9,3 @@ def parentObjects(parent, children=None):
   for child in children:
     mc.parent(child, parent)
 
-parentObjects("steve", ['a', 'b'])
