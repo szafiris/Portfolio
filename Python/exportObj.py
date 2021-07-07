@@ -28,5 +28,3 @@ def exportObj(assetName, exportLocation):
       )
   return True
 
-exportObj("test", "C:/Users/smzaf/OneDrive/Documents/Method/Codes/")
-exportObj(["test", "test2"], "C:/Users/smzaf/OneDrive/Documents/Method/Codes/")
