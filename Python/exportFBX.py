@@ -27,6 +27,3 @@ def exportFBX(assetName, exportLocation):
       exportSelected=True
       )
   return True
-
-exportFBX("test", "C:/Users/smzaf/OneDrive/Documents/Method/Codes/")
-exportFBX(["test", "test2"], "C:/Users/smzaf/OneDrive/Documents/Method/Codes/")
