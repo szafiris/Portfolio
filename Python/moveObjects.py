@@ -15,5 +15,4 @@ def moveObjects(Tx=0, Ty=0, Tz=0):
       mc.setAttr("{}.translateZ".format(obj), Tz)
 
 
-moveObjects(Tx=3, Ty=7, Tz=9)
 
